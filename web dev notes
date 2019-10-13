@@ -19,3 +19,10 @@ while (count < str.length) {
 console.log(str[count]);
 count++;
 }
+
+>Infinite Loops: occur when the terminating condition in a loop is never false. For
+example, the code below will print 0 forever because "count" is never incremented:
+var count = 0;
+while (count < 10) {
+console.log(count);
+}
